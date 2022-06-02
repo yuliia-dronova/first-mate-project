@@ -1,8 +1,9 @@
 body {
-  margin: 0;
+  width: 595px;
+  margin: 0 auto;
   font-family: "Montserrat", Roboto, sans-serif
 }
-
+/* #region about */
 .about {
   display:flex;
   background-color: #E25544;
@@ -40,4 +41,28 @@ body {
   border-radius: 50%;
   margin-left: 50px;
 }
+/* #endregion */
 
+.main {
+  padding: 0 40px;
+}
+
+/* #region contacts */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  font-size: 10px;
+}
+
+.contacts__item {
+  color: #485268;
+  text-decoration: none;
+}
+/* #endregion */
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #DEE2ED;
+}
